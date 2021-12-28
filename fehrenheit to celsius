@@ -1,0 +1,10 @@
+import java.util.*;
+
+public class FTC{
+    public static void main(String[] args){
+        Scanner scn = new Scanner(System.in);
+        int F = scn.nextInt();
+        double C = (F-32)/1.8;
+        System.out.println(C);
+    }
+}
