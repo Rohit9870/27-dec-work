@@ -1,0 +1,11 @@
+import java.util.*;
+
+public class inch_to_meters{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int inch = sc.nextInt();
+        
+        double meter = 0.0254*inch;
+        System.out.println(meter+" meters");
+    }
+}
