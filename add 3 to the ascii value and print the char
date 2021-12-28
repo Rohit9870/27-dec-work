@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class Add_three_ascii{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        char c = sc.next().charAt(0);
+        
+        int value = 3+c;
+        char res = (char)value;
+        System.out.println(res);
+    }
+}
